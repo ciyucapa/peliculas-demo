@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" type="text/css" href="css/index.css" />
+    <title>Proyecto 1</title>
+</head>
+
+<body>
+    <div class="layout">
+        <header class="layout-header">
+            <nav class="layout-header__navegation">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Peliculas</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+            <section class="layout-content">
+                <article class="layout-content__peliItem">
+                    <h3 class="content-peliItem__title">Desarrolo web</h3>
+                    <p class="content-peliItem__description">Description</p>
+
+                    <button class="content-peliItem__editar">Editar</button>
+                    <button class="content-peliItem__delete">Borrar</button>
+                </article>
+
+            </section>
+            <aside class="layout-lateral">
+                <div class="layout-lateral__search">
+                    <h3>Buscador</h3>
+                    <form>
+                        <input type="text" placeholder="Que buscas?" />
+                        <button>Buscar</button>
+                    </form>
+                </div>
+                <div class="layout-lateral__add">
+                    <h3>Añadir pelicula</h3>
+                    <form>
+                        <input type="text" placeholder="titulo" />
+                        <textarea placeholder="Descripción"></textarea>
+                        <input type="submit" value="Guardar" />
+                    </form>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            &copy; proyecto 1
+        </footer>
+    </div>
+</body>
+
+</html>

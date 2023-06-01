@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "GARFIELD the CAT V2";
+    src: url(/css/fonts/6ccb6be714c1da7517334fb4f037d2ab.svg),
+        url(./fonts/6ccb6be714c1da7517334fb4f037d2ab.eot),
+        url(./fonts/6ccb6be714c1da7517334fb4f037d2ab.ttf),
+        url(./fonts/6ccb6be714c1da7517334fb4f037d2ab.woff),
+        url(./fonts/6ccb6be714c1da7517334fb4f037d2ab.woff2)
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+
+.layout-header {
+    background-color: aliceblue;
+    width: 100%;
+}
+
+.layout-header__navegation {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layout-header__navegation ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    list-style: none;
+}
+
+.layout-header__navegation ul li a {
+    text-decoration: none;
+    color: rgb(194, 189, 189);
+    font-size: 24px;
+    transition: all .1s linear;
+    font-family: "GARFIELD the CAT V2";
+}
+
+.layout-header__navegation ul li a:hover {
+    color: blueviolet;
+    font-size: 26px;
+    transform: scale(1.1, 1.1);
+}
