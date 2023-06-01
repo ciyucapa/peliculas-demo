@@ -72,8 +72,6 @@
     align-items: flex-start;
     justify-content: space-around;
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
 }
 
 .layout-footer {
@@ -99,4 +97,24 @@
 .layout-header__logo p {
     font-family: "GARFIELD the CAT V2";
     font-size: 32px;
+}
+
+.layout-content {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f6f7f9;
+}
+
+.layout-content__peliItem {
+    width: 20%;
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 6px #ddd;
+    margin: 20px;
+}
+
+.layout-lateral{
+    width: 30%;
 }
